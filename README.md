@@ -5,6 +5,7 @@
     1. 本人项目中使用的SDK版本   
     compileSdkVersion 25
     buildToolsVersion "26.0.0"
+    
     2. (本类不使用单例，预防Activity嵌套Fragment，同时Activity和Fragment都有授权的适合，弹出框会弹出两次)
     
 一、 在需要申请权限的地方如案例那样调用。（其中Manifest.permission.ACCESS_COARSE_LOCATION,
