@@ -9,9 +9,13 @@
     
 一、 在需要申请权限的地方如案例那样调用。（其中Manifest.permission.ACCESS_COARSE_LOCATION,
 Manifest.permission.ACCESS_FINE_LOCATION是需要申请的权限）
+
      HzhPermission  mHzhPermission = new HzhPermission();
+     
      mHzhPermission.requestPermissions(this, new String[]{Manifest.permission.ACCESS_COARSE_LOCATION,
+     
                     Manifest.permission.ACCESS_FINE_LOCATION}, 2, new HzhPermission.OnHzhPermissionListener() {
+                    
                 @Override
                 public void onHzhPermissionGrantedListener(int requestCode, String[] permissions) {
                     //所有权限授权成功的操作
