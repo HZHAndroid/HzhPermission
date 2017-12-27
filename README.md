@@ -2,6 +2,7 @@
 【Android】一个权限申请工具类，直接复制到项目中即可使用。
 # 使用方式
   提示 ： 
+    
     1. 本人项目中使用的SDK版本   
     compileSdkVersion 25
     buildToolsVersion "26.0.0"
