@@ -31,6 +31,7 @@ Manifest.permission.ACCESS_FINE_LOCATION是需要申请的权限）
                 }
             });
 二、 将onRequestPermissionsResult在Activity或者Fragment的onRequestPermissionsResult方法中调用(必须)
+
 三、 将onActivityResult在Activity或者Fragment中的onActivityResult方法调用(可选,如果有调用，
 在设置页面全部请求的权限都被授予后会调用onHzhPermissionGrantedListener)
 
